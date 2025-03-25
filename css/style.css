@@ -7,7 +7,7 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 960px;
-    background-color: purple;
+    background-color: #f2f2f2;
 
     color: white;
   }
@@ -30,4 +30,13 @@ footer {
   background-color: gray;
 
   color: #fff;
+}
+
+.director {
+  display: flex;
+}
+
+.director-info {
+  padding: 20px;
+  padding-top: 0px;
 }
