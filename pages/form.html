@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="main.js" method="POST" enctype="multipart/form-data">
+      <label for="last_name">Прізвище: </label>
+      <input
+        type="text"
+        id="last_name"
+        name="last_name"
+        required
+        minlength="2"
+        maxlength="20"
+      /><br />
+
+      <label for="first_name">Ім'я: </label>
+      <input
+        type="text"
+        id="first_name"
+        name="first_name"
+        required
+        minlength="2"
+        maxlength="20"
+      /><br />
+
+      <label for="patronymic">По батькові: </label>
+      <input
+        type="text"
+        id="patronymic"
+        name="patronymic"
+        required
+        minlength="2"
+        maxlength="20"
+      /><br />
+
+      <label for="email">Електронна пошта: </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+      /><br />
+
+      <label for="password">Пароль: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        minlength="6"
+        maxlength="50"
+      /><br />
+
+      <label for="password_confirmation">Підтвердження пароля: </label>
+      <input
+        type="password"
+        id="password_confirmation"
+        name="password_confirmation"
+        required
+        minlength="6"
+        maxlength="50"
+      /><br />
+
+      <label for="date">Дата народження: </label>
+      <input type="date" id="date" name="date" /><br />
+
+      <label for="gender">Стать: </label>
+      <input type="radio" id="mr" name="gender" value="mr" />
+      <label for="mr">Чол.</label>
+      <input type="radio" id="ms" name="gender" value="ms" />
+      <label for="ms">Жін.</label>
+      <input type="radio" id="another" name="gender" value="another" />
+      <label for="another">Інше</label><br />
+
+      <label for="faculty">Факультет: </label>
+      <select id="faculty" name="faculty">
+        <br />
+        <option value="faculty1">Факультет 1</option>
+        <option value="faculty2">Факультет 2</option>
+        <option value="faculty3">Факультет 3</option></select
+      ><br />
+
+      <label for="course_of_study">Курс навчання: </label>
+      <input
+        type="radio"
+        id="first_course"
+        name="course_of_study"
+        value="first_course"
+      />
+      <label for="first_course">1 курс.</label>
+      <input
+        type="radio"
+        id="second_course"
+        name="course_of_study"
+        value="second_course"
+      />
+      <label for="second_course">2 курс.</label>
+      <input
+        type="radio"
+        id="third_course"
+        name="course_of_study"
+        value="third_course"
+      />
+      <label for="third_course">3 курс</label>
+      <input
+        type="radio"
+        id="fourth_course"
+        name="course_of_study"
+        value="fourth_course"
+      />
+      <label for="fourth_course">4 курс.</label><br />
+
+      <label for="additional_information">Додаткова інформація: </label>
+      <textarea
+        id="additional_information"
+        name="additional_information"
+      ></textarea
+      ><br />
+
+      <label for="checkbox">Згода на обробку персональних даних: </label>
+      <input type="checkbox" id="checkbox" name="checkbox" required /><br />
+
+      <input type="reset" /><br />
+      <input type="submit" /><br />
+    </form>
+  </body>
+</html>
