@@ -1,290 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Навчально-науковий інститут комп’ютерного моделювання, прикладної фізики
-      та математики
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
+  <body class="landing">
+    <header class="header container-xs">
+      <img
+        src="img/img_header_logo.png"
+        alt="Headerlogo"
+        class="header__logo"
+      />
+      <div class="rowhome_one">
+        <ul class="header__menu">
           <li>
-            <a href="/">На головну</a>
+            <a href="#"><p class="ui heading">Home</p></a>
           </li>
           <li>
-            <a href="./pages/kafedra_mmi.html">Про кафедру</a>
+            <a href="#"><p class="ui heading">About Us</p></a>
           </li>
           <li>
-            <a href="/link">На розділ</a>
+            <a href="#"><p class="ui heading">Our App</p></a>
+          </li>
+          <li>
+            <a href="#"><p class="ui heading">Contacts</p></a>
           </li>
         </ul>
-      </nav>
+      </div>
+      <div class="header__actions">
+        <p class="ui heading">Log in</p>
+        <button class="header__actions-item--signup">Sign up</button>
+      </div>
     </header>
 
-    <main>
-      <section>
-        <h1>
-          Навчально-науковий інститут комп’ютерного моделювання, прикладної
-          фізики та математики
-        </h1>
+    <div class="landing__body">
+      <div class="landing__section">
+        <img src="img/img_frame_black_900.png" class="section__image" />
+        <div class="section__content">
+          <div class="content__text-column">
+            <h1 class="text-column__title">
+              We boost<br />growth for your startup business
+            </h1>
+            <h1 class="text-column__subtitle ui heading size-text5xl">
+              Our goal is to be at the heart of creativity services industry as
+              a digital creator. In has a after comment
+            </h1>
+          </div>
+          <div class="content__media-row">
+            <section class="media-row content-stack">
+              <div class="content-stack__view"></div>
+              <img
+                src="img/img_joyful_guy_text.png"
+                class="content-stack__image"
+              />
+            </section>
+          </div>
+        </div>
+        <div class="section__cta-row">
+          <button class="cta-row__button">Get Started</button>
+          <div class="cta-row__info-row">
+            <img src="img/img_contrast.png" alt="Contrast Icon" />
 
-        <div class="director">
-          <img src="/img/photo_larin.jpg" alt="Директор" />
-          <div class="director-info">
-            <p>Директор</p>
-            <h2>Ларін Олексій Олександрович</h2>
+            <a href="#" class="learnmore_two-link">
+              <h2 class="ui heading size-heading3x1">Learn More</h2>
+            </a>
           </div>
         </div>
 
-        <p>
-          Навчально-науковий інститут комп’ютерного моделювання, прикладної
-          фізики та математики (ІКМ) сформований зі 14 кафедр, які об’єднані
-          спільним баченням та фокусом своєї діяльності.
-        </p>
-        <p>
-          <strong> Академічним баченням (візією) </strong>
-          інституту є система підготовки, що базується на органічному поєднанні
-          фундаментальної фізико-математичної освіти та підготовки з
-          комп’ютерних наук, які разом спрямовані на практичні задачі в галузі
-          ІТ, інженерії та проривних технологій.
-        </p>
-        <p>
-          В залежності від спеціальності та наукової лабораторії (кафедри)
-          <strong>академічний фокус </strong>у вирішення прикладних задач
-          розглядається з однієї з основних 3 точок зору:
-        </p>
+        <section class="section__stats-column">
+          <div class="stats-column__info-row">
+            <img src="img/img_clock.png" alt="Clock" class="info-row__icon" />
+            <div class="info-row__text-column">
+              <h3 class="ui heading size-headingx1">100% Business Growth</h3>
+              <div class="rating-summary">
+                <img
+                  src="img/img_signal.png"
+                  alt="Signal"
+                  class="rating-summary__signal"
+                />
+                <h4 class="rating-summary__score ui heading size-headinglg">
+                  4.9
+                </h4>
+                <h5 class="rating-summary__reviews ui heading size-textlg">
+                  (1520 Reviews)
+                </h5>
+              </div>
+            </div>
+          </div>
 
-        <ul>
-          <li>
-            фізики явищ та процесів, що лежать в основі створення нових
-            матеріалів, новітньої бази електроніки, передачі чи обробки
-            інформації;
-          </li>
-          <li>
-            синтезу архітектурних рішень вбудованої електроніки, інформаційних
-            систем та апаратного забезпечення для автоматизації, контролю і
-            діагностики;
-          </li>
-          <li>
-            створення нових математичних моделей, методів та алгоритмів для
-            комп’ютерного моделювання, симуляцій, інтелектуального керування та
-            проектування складних програмних рішень.
-          </li>
-        </ul>
+          <div class="flex-col-center-start stats-column__clients-column">
+            <h6 class="ui heading size-headingxl">1,000,000 Happy Clients</h6>
+            <div class="rating-summary">
+              <img
+                src="img/img_signal.png"
+                alt="Signal"
+                class="rating-summary__signal"
+              />
+              <p class="rating-summary__score ui heading size-heading4">4.9</p>
+              <p class="rating-summary__reviews ui heading size-textlg">
+                (15k Reviews)
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        <div id="link">
-          <h2>Спеціальність 105 – «Прикладна фізика та наноматеріали».</h2>
-          <p>
-            Освітня програма
-            <strong
-              >«Прикладна фізика та наноматеріали для енергетики, медицини,
-              радіоелектроніки та телекомунікацій».</strong
-            >
-          </p>
-          <p>
-            <strong>Фокус програми </strong>спеціальна освіта в галузі фізики
-            твердого тіла та фізичних основ пристроїв електроніки та
-            радіоелектроніки у предметній області аналізу фізичних властивостей
-            та ефектів, які спрямовані на створення нових інноваційних
-            технологій.
-          </p>
-          <p>Вибіркові блоки на старших курсах підготовки (спеціалізації):</p>
-          <ul>
-            <li>Інженерія радіоелектронних систем;</li>
-            <li>
-              Прикладна фізика та наноматеріали для електроніки, енергетики і
-              медицини.
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Спеціальність 113 – «Прикладна математика».</h2>
-          <p>
-            Освітня програма
-            <strong>«Комп’ютерне та математичне моделювання».</strong>
-          </p>
-          <p>
-            <strong>Фокус програми </strong>спрямовано на підготовку бакалаврів
-            що здатні формулювати, розв’язувати й узагальнювати практичні задачі
-            з використанням фундаментальних та спеціальних прикладних методів
-            математики та ІТ для моделювання, аналізу й обробки процесів і явищ
-            в інженерних та інформаційних системах.
-          </p>
-        </div>
-
-        <div>
-          <h2>Спеціальність 122 – «Комп’ютерні науки».</h2>
-          <p>
-            Освітня програма
-            <strong
-              >«КН. Моделювання, проектування та комп’ютерна графіка».</strong
-            >
-          </p>
-          <p>
-            <strong>Фокус програми </strong>полягає в області вивчення
-            алгоритмічних рішень та математичних методів, що покладені в основу
-            розробки інтелектуальних програмних систем, а також вирішення
-            прикладних задач комп’ютерного моделювання та аналізу даних в
-            інформаційних та інженерних системах зі застосуванням підходів
-            обчислювального і штучного інтелекту.
-          </p>
-          <p>Вибіркові блоки на старших курсах підготовки (спеціалізації):</p>
-          <ul>
-            <li>Проектування, створення та аналіз комп’ютерних систем;</li>
-            <li>Моделювання процесів, обробка та аналіз даних;</li>
-            <li>
-              Геометричне моделювання та графічні інформаційні технології;
-            </li>
-            <li>Інтелектуальні та робототехнічні системи;</li>
-            <li>Технології доповненої реальності.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>
-            Спеціальність 151 – «Автоматизація та комп’ютерно-інтегровані
-            технології».
+      <!-- Services Section -->
+      <section class="landing__services-column container-xs">
+        <div class="services-column__header-column">
+          <h2 class="header-column__label ui heading size-headingxl">
+            SERVICE
           </h2>
-          <p>
-            Освітня програма
-            <strong
-              >«Автоматизація та комп’ютерно-інтегровані технології».</strong
-            >
-          </p>
-          <p>
-            <strong>Фокус програми. </strong>Програма розроблена для студентів,
-            які прагнуть стати спеціалістами в галузі автоматизації
-            технологічних та виробничих процесів з використанням найсучасніших
-            інформаційних та комп’ютерних технологій. Студенти отримують
-            поглиблені знання в області теорії автоматичного управління складних
-            адаптивних систем, систем збору, обробки і передачі інформації,
-            систем комп’ютерної діагностики та аналізу даних, програмованих
-            контролерів і спеціалізованих мікропроцесорів, інформаційно-керуючих
-            та розподілених систем.
-          </p>
-          <p>Вибіркові блоки на старших курсах підготовки (спеціалізації):</p>
-          <ul>
-            <li>Комп’ютеризовані системи управління та автоматика;</li>
-            <li>
-              Комп’ютерно-інтегровані виробництва та прикладне програмування.
-            </li>
-          </ul>
+          <h3 class="services-column__heading ui heading size-heading9xl">
+            Our Vision & Our Goal
+          </h3>
         </div>
 
-        <div>
-          <h2>
-            Спеціальність 152 – «Метрологія та інформаційно-вимірювальні
-            технології».
-          </h2>
-          <p>
-            <strong>Фокус програми: </strong>спеціальна освіта з орієнтацією на
-            формування спеціаліста в сфері метрологічного забезпечення, розробки
-            та застосування засобів вимірювання; розробки та експлуатації
-            інформаційно-вимірювальних систем різноманітного призначення;
-            розробки та впровадження систем неруйнівного контролю, визначення
-            їхніх параметрів та діагностики.
-          </p>
-          <p>Вибіркові блоки на старших курсах підготовки (спеціалізації):</p>
-          <ul>
-            <li>Метрологія та вимірювальна техніка;</li>
-            <li>Інформаційні вимірювальні системи;</li>
-            <li>
-              Комп´ютерні та радіоелектронні системи контролю та діагностики.
-            </li>
-          </ul>
-        </div>
+        <div class="services-column__list">
+          <div class="graphic-design-profile">
+            <img
+              src="img/img_clock_black_900.png"
+              alt="Clock"
+              class="graphic-design-profile__clock"
+            />
+            <div class="graphic-design-profile__content">
+              <h3 class="ui heading size-heading7x1">Graphic Design</h3>
+              <p class="graphic-design-profile__description ui heading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                dui mi, bibendum eu erat id, ultricies semper metus. Nunc
+                dapibus laoreet dolor nec imperdiet.
+              </p>
+              <button class="graphic-design-profile__button">Learn More</button>
+            </div>
+          </div>
 
-        <div>
-          <h2>Спеціальність 153 – «Мікро- та наносистемна техніка».</h2>
-          <p>
-            Освітня програма
-            <strong>
-              «Мікроелектроніка енергоефективності та електронний захист».
-            </strong>
-          </p>
-          <p>
-            <strong>Фокус програми: </strong>передбачає фундаментальне вивчення
-            схемотехнічних та технологічних засад створення сучасних
-            інформаційних мікроелектронних систем, включно з інтелектуальними
-            мікроелектронними системами збору, обробки та передачі інформації та
-            пристроями для них на основі використання новітньої мікроелектронної
-            компонентної бази, зокрема для автономних енергетичних систем та
-            відновлювальної енергетики.
-          </p>
-        </div>
-
-        <div>
-          <h2>Спеціальність 172 – «Телекомунікації та радіотехніка».</h2>
-          <p>
-            Освітня програма
-            <strong>«Мережеві технології та телекомунікації».</strong>
-          </p>
-          <p>
-            <strong>Фокус програми: </strong>розробка методів і засобів обробки,
-            зберігання та обміну інформації на відстані. Студенти отримують
-            глибоку підготовку як в питаннях електроніки, схемотехніки,
-            програмування, разом зі знаннями в області теорії інформації та
-            кодування, криптографії та захисту даних, методів розробки та
-            експлуатації систем передачі інформації лініями зв’язку. Вивчаються
-            основи маршрутизації і адміністрування локальних і глобальних
-            комп’ютерних мереж, хмарних технологій та дистанційної обробки
-            даних, особливості розробки та експлуатації мультисервісних мереж
-            стільникового зв’язку 3-го і наступних поколінь.
-          </p>
+          <div class="graphic-design-profile">
+            <img
+              src="img/img_video.png"
+              alt="Clock"
+              class="graphic-design-profile__clock"
+            />
+            <div class="graphic-design-profile__content">
+              <h3 class="ui heading size-heading7x1">Video Editing</h3>
+              <p class="graphic-design-profile__description ui heading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                dui mi, bibendum eu erat id, ultricies semper metus. Nunc
+                dapibus laoreet dolor nec imperdiet.
+              </p>
+              <button
+                class="graphic-design-profile__button ui button orange_a700 size-2xl fill round"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="graphic-design-profile">
+            <img
+              src="img/img_marketing.png"
+              alt="Clock"
+              class="graphic-design-profile__clock"
+            />
+            <div class="graphic-design-profile__content">
+              <h3 class="ui heading size-heading7x1">Digital Marketing</h3>
+              <p class="graphic-design-profile__description ui heading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                dui mi, bibendum eu erat id, ultricies semper metus. Nunc
+                dapibus laoreet dolor nec imperdiet.
+              </p>
+              <button
+                class="graphic-design-profile__button ui button orange_a700 size-2xl fill round"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
-      <aside>
-        <h2>Кафедри інституту</h2>
-        <hr />
+      <!-- features section -->
+      <div class="landing__features-row container-xs">
+        <div class="features-row__content-column">
+          <div class="content-column__title">
+            <h2 class="features-row__heading ui heading size-heading_l5 lead">
+              Many Blocks and Components
+            </h2>
+            <p class="title__description ui text size-text_paragraph">
+              Startup Framework contains components and complex blocks which can
+              easily be integrated into almost any design.
+            </p>
+          </div>
+          <button class="content-column__button">Explore</button>
+        </div>
+        <div class="features-row__media-stack">
+          <img src="img/img_mask.png" alt="Mask" class="media-stack__image" />
 
-        <ul>
-          <li>
-            <a href="./pages/automation_of_technological_systems.html">
-              Автоматизація технологічних систем та екологічного моніторингу
-            </a>
-          </li>
-          <li>
-            <a href="./pages/automation_and_control_in_technical_systems.html">
-              Автоматика та управління в технічних системах
-            </a>
-          </li>
-          <li><a href="">Геометричне моделювання та комп’ютерна графіка</a></li>
-          <li><a href="">Інформаційно-вимірювальні технології</a></li>
-          <li><a href="">Комп’ютерне моделювання процесів та систем</a></li>
-          <li>
-            <a href="">
-              Математичне моделювання та інтелектуальні обчислення в інженерії
-            </a>
-          </li>
-          <li><a href="">Мікро- та наноелектроніка</a></li>
-          <li><a href="">Прикладна математика</a></li>
-          <li><a href="">Радіоелектроніка</a></li>
-          <li><a href="">Системи інформації ім. В.О. Кравця</a></li>
-          <li><a href="">Теоретична механіка та oпip матеріалів</a></li>
-          <li><a href="">Фізика</a></li>
-          <li><a href="">Фізика металів і напівпровідників</a></li>
-        </ul>
-      </aside>
-    </main>
-
-    <footer>
-      <div>
-        <a href="#link">Вступнику</a>
-        <a href="#">Прес-служба</a>
-        <a href="#">Підтримка веб-сайтів університету</a>
-        <a href="#">Контакти</a>
-        <a href="#">Мапа сайту</a>
+          <img src="img/mask_button.png" class="media-stack__icon-button" />
+        </div>
       </div>
-      <div>© 2025 НТУ «ХПІ». Усі права захищено.</div>
-    </footer>
 
-    <script src="js/script.js"></script>
+      <!-- Testimonials section -->
+      <div class="landing__testimonials-column">
+        <div class="testimonials-column__header-column">
+          <h2 class="header-column__label ui heading size-headingxl">
+            TESTIMONIALS
+          </h2>
+          <h3 class="header-column__heading ui heading size-heading9xl">
+            What Clients say about us
+          </h3>
+        </div>
+        <div class="testimonials-column__grid">
+          <div class="user-profile">
+            <img
+              src="img/img_mask_70x70.png"
+              alt="Image"
+              class="user-profile__image"
+            />
+            <div class="user-profile__content">
+              <h4 class="user-profile__description ui heading">
+                Get a fully retina ready site when you build with Startup
+                Framework. Websites look sharper and more gorgeous on devices
+                with retina display support
+              </h4>
+              <h5 class="user-profile__author ui heading size-headingxl">
+                Rayhan Curran
+              </h5>
+            </div>
+          </div>
+          <div class="user-profile">
+            <img
+              src="img/img_mask1.png"
+              alt="Image"
+              class="user-profile__image"
+            />
+            <div class="user-profile__content">
+              <p class="user-profile__description ui heading">
+                As a business targeting high net worth individuals, we were
+                looking for a slick, cool and mini-malistic design for our
+                website
+              </p>
+              <h4 class="user-profile__author ui heading size-headingxl">
+                Kayley Frame
+              </h4>
+            </div>
+          </div>
+          <div class="user-profile">
+            <img
+              src="img/img_mask2.png"
+              alt="Image"
+              class="user-profile__image"
+            />
+            <div class="user-profile__content">
+              <p class="user-profile__description ui heading">
+                The most important part of the Startup Framework is the samples
+              </p>
+              <h4 class="user-profile__author ui heading size-headingxl">
+                Gene Whitfield
+              </h4>
+            </div>
+          </div>
+          <div class="user-profile">
+            <img
+              src="img/img_mask3.png"
+              alt="Image"
+              class="user-profile__image"
+            />
+            <div class="user-profile__content">
+              <p class="user-profile__description ui heading">
+                I’ve built my website with Startup just in one day, and it was
+                ready-to-go.
+              </p>
+              <h4 class="user-profile__author ui heading size-headingxl">
+                Allan Kim
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- team section -->
+      <div class="landing__team-column container-xs">
+        <div class="services-column__header-column">
+          <p class="header-column__label ui heading size-headingxl">OUR TEAM</p>
+          <h3 class="header-column__heading ui heading size-headingxl">
+            Meet The Team
+          </h3>
+        </div>
+
+        <div class="team-column__list">
+          <div class="list__member">
+            <img
+              src="img/img_mask_120x120.png"
+              alt="User_image"
+              class="member__image"
+            />
+            <div class="member__info-column">
+              <p class="info-column__name ui heading size-heading_">
+                Vanessa Laird
+              </p>
+              <h5 class="info-column__role ui heading size-headingxl">
+                UI Designer
+              </h5>
+            </div>
+            <div class="member__socials-row">
+              <div>
+                <img
+                  src="img/img_line.png"
+                  alt="Line"
+                  class="line-column__image"
+                />
+                <div class="socials-row__icons-row">
+                  <img
+                    src="img/img_trash.png"
+                    alt="Trash"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="UI Designer"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_facebook.png"
+                    alt="Facebook"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="Divider"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_fa_dribbble.png"
+                    alt="Faddribble"
+                    class="icons-row__icon--trash"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="list__member">
+            <img
+              src="img/img_mask_4.png"
+              alt="User_image"
+              class="member__image"
+            />
+            <div class="member__info-column">
+              <p class="info-column__name ui heading size-heading_">
+                Mason Campbell
+              </p>
+              <h5 class="info-column__role ui heading size-headingxl">
+                UI Designer
+              </h5>
+            </div>
+            <div class="member__socials-row">
+              <div>
+                <img
+                  src="img/img_line.png"
+                  alt="Line"
+                  class="line-column__image"
+                />
+                <div class="socials-row__icons-row">
+                  <img
+                    src="img/img_trash.png"
+                    alt="Trash"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="UI Designer"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_facebook.png"
+                    alt="Facebook"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="Divider"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_fa_dribbble.png"
+                    alt="Faddribble"
+                    class="icons-row__icon--trash"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="list__member">
+            <img
+              src="img/img_mask_5.png"
+              alt="User_image"
+              class="member__image"
+            />
+            <div class="member__info-column">
+              <p class="info-column__name ui heading size-heading_">
+                Irea Evans
+              </p>
+              <h5 class="info-column__role ui heading size-headingxl">
+                Client Manager
+              </h5>
+            </div>
+            <div class="member__socials-row">
+              <div>
+                <img
+                  src="img/img_line.png"
+                  alt="Line"
+                  class="line-column__image"
+                />
+                <div class="socials-row__icons-row">
+                  <img
+                    src="img/img_trash.png"
+                    alt="Trash"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="UI Designer"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_facebook.png"
+                    alt="Facebook"
+                    class="icons-row__icon--trash"
+                  />
+                  <img
+                    src="img/img_line.png"
+                    alt="Divider"
+                    class="icons-row__icon--ui-designer"
+                  />
+                  <img
+                    src="img/img_fa_dribbble.png"
+                    alt="Faddribble"
+                    class="icons-row__icon--trash"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- newsletter section -->
+      <div class="landing__subscribe-column container-xs">
+        <div class="services-column__header-column">
+          <h2 class="header-column__label ui heading size-headingxl">
+            OUR TEAM
+          </h2>
+          <h3 class="header-column__heading ui heading size-heading9xl">
+            Subscribe Our Newsletter
+          </h3>
+        </div>
+        <div class="subscribe-column__content-row">
+          <div class="content-row__vector-column">
+            <div class="vector-column__row">
+              <img src="img/img_rectangle.png" alt="Image" class="row__image" />
+            </div>
+          </div>
+
+          <div class="subscribe-column__email-column">
+            <p class="email-column__description ui heading">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
+            </p>
+            <label
+              class="email-column__input ui input colors_white size-5xl round email_border"
+            >
+              <input
+                name="email"
+                placeholder="Your E-mail here..."
+                type="email"
+              />
+            </label>
+            <button class="email-column__button">
+              Subscribe Our Newsletter
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer section -->
+      <footer class="footer container-xs">
+        <div class="footer__column">
+          <div class="footer__column-top">
+            <div class="footer__copyright">
+              <img
+                src="img/img_footer_logo.png"
+                alt="Footerlogo"
+                class="footer__logo"
+              />
+              <p class="footer__text ui text size-text-sm">
+                © 2020 Epixelab. All rights reserved.
+              </p>
+            </div>
+            <ul class="footer__menu">
+              <li>
+                <a href="Portfolio" target="_blank" rel="noreferrer">
+                  <p class="footer__text ui text size-text_">Portfolio</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p class="footer__text ui text size-text_">How it Works</p>
+                </a>
+              </li>
+              <li>
+                <a href="Pricing" target="_blank" rel="noreferrer">
+                  <p class="footer__text ui text size-text_">Pricing</p>
+                </a>
+              </li>
+              <li>
+                <a href="About" target="_blank" rel="noreferrer">
+                  <p class="footer__text ui text size-text_">About</p>
+                </a>
+              </li>
+              <li>
+                <a href="Login" target="_blank" rel="noreferrer">
+                  <p class="footer__text ui text size-text_">Login</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__divider"></div>
+        </div>
+        <div class="footer__socials">
+          <p class="footer__description ui text size-text_">
+            Startup Framework contains components and complex blocks which can
+            easily be integrated into almost any design.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
